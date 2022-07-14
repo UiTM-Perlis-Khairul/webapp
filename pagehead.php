@@ -11,7 +11,13 @@ if (isset($_GET["logout"])) {
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+  <meta name="description" content="My Web Application">
+  <meta name="keywords" content="PHP, MySQL, HTML, CSS, JavaScript">
+  <meta name="author" content="Khairul Anwar Sedek">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+<title>PHP MySQL Web Application: Sample Project</title> 
 .flex-container {
     display: -webkit-flex;
     display: flex;
