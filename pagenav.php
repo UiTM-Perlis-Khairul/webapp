@@ -16,7 +16,8 @@
   }
   if ($_SESSION['role'] == 'normal') {
   	echo '<li><a href="index.php?page=userprofile">My Profile</a></li>';
-  	echo '<li><a href="index.php?page=items">My Items</a></li>';
+    // uncomment the following one line to open the new user items page
+  	//echo '<li><a href="index.php?page=useritems">My Items</a></li>';
   }
   ?>
   <li><a href="index.php">About</a></li>

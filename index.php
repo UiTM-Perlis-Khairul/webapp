@@ -33,6 +33,9 @@ require_once 'pagehead.php';
   		include 'user_delete.php';
 	} elseif ($_GET['page'] == 'userprofile') {
 		include 'user_profile.php';	
+	// uncomment the next two lines to add new item in the menu
+	//} elseif ($_GET['page'] == 'useritems') {
+	//	include 'user_items.php';	
    	} elseif ($_GET['page'] == 'error') {
   		include 'error.php';
    	} else {
